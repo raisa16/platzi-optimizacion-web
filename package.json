@@ -6,7 +6,8 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "webpack-dev-server",
-    "build": "webpack"
+    "build": "webpack --mode production",
+    "serve": "serve ."
   },
   "prettier": {
     "trailingComma": "es5",
@@ -27,7 +28,9 @@
     "moment": "^2.24.0",
     "prettier": "1.19.1",
     "pretty-quick": "^2.0.1",
+    "serve": "^14.2.4",
     "webpack": "^5.99.9",
+    "webpack-bundle-analyzer": "^4.10.2",
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.2"
   }
